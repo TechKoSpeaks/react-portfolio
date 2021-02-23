@@ -196,7 +196,7 @@ ul#nav li.current a { color: #F06000; }
 #about {
 
       color: white;
-      background: #1F1F1F url(../images/background-sky.jpg) no-repeat center center;
+      background: #1F1F1F url(../images/background-sky2.jpg) no-repeat center center;
       background-size: cover !important;
       -webkit-background-size: cover !important;
       background-attachment: fixed;
@@ -222,9 +222,12 @@ ul#nav li.current a { color: #F06000; }
 #about .profile-pic {
    background: url(../images/profile-photo2.jpg) no-repeat center center;
    position: relative;
+   text-align: center;
    width: 400px;
    height: 600px;
    border-radius: 100%;
+   max-width: 100%;
+   max-height: 100%;
 }
 #about .contact-details { width: 41.66667%; }
 #about .download {
@@ -251,9 +254,15 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #resume {
-   background: #fff;
-   padding-top: 90px;
-   padding-bottom: 72px;
+   color: white;
+   background: #1F1F1F url(../images/background-sky2.jpg) no-repeat center center;
+   background-size: cover !important;
+   -webkit-background-size: cover !important;
+   background-attachment: fixed;
+
+   position: relative;
+   min-height: 200px;
+   width: 100%;
    overflow: hidden;
 }
 
@@ -262,6 +271,7 @@ ul#nav li.current a { color: #F06000; }
 
 #resume h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
+   color: white;
    text-transform: uppercase;
    letter-spacing: 1px;
 }
@@ -270,6 +280,7 @@ ul#nav li.current a { color: #F06000; }
    padding-bottom: 6px;
 }
 #resume h3 {
+   color: rgb(82, 94, 255);
    font: 25px/30px 'opensans-bold', sans-serif;
 }
 
@@ -283,7 +294,7 @@ ul#nav li.current a { color: #F06000; }
 }
 #resume .info {
    font: 16px/24px 'librebaskerville-italic', serif;
-   color: #6E7881;
+   color: #fbfdff;
    margin-bottom: 18px;
    margin-top: 9px;
 }
@@ -319,7 +330,7 @@ ul#nav li.current a { color: #F06000; }
 }
 .bars li em {
 	font: 15px 'opensans-bold', sans-serif;
-   color: #313131;
+   color: #ffffff;
 	text-transform: uppercase;
    letter-spacing: 2px;
 	font-weight: normal;
@@ -333,7 +344,7 @@ ul#nav li.current a { color: #F06000; }
 
    margin: 0;
    padding-right: 24px;
-  	background: #313131;
+  	background: #1fb301;
    display: inline-block;
   	height: 42px;
    line-height: 42px;
@@ -414,7 +425,7 @@ ul#nav li.current a { color: #F06000; }
 
 #portfolio {
    color: white;
-   background: #1F1F1F url(../images/testimonials-bg.jpg) no-repeat center center;
+   background: #1F1F1F url(../images/background-sky.jpg) no-repeat center center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    background-attachment: fixed;
@@ -425,12 +436,12 @@ ul#nav li.current a { color: #F06000; }
    overflow: hidden;
 }
 #portfolio h1 {
+   margin: 20px;
    font: 30px/24px 'opensans-semibold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
    text-align: center;
-   margin-bottom: 48px;
-   color: #95A3A3;
+   color: #ffffff;
 }
 
 /* Portfolio Content */
@@ -649,7 +660,7 @@ call-to-action .button {
 
 #testimonials {
    color: white;
-   background: #1F1F1F url(../images/testimonials-bg.jpg) no-repeat center center;
+   background: #1f1f1f71;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    background-attachment: fixed;
@@ -662,12 +673,19 @@ call-to-action .button {
 #testimonials .text-container {
    padding-top: 96px;
    padding-bottom: 66px;
+   color: white;
 }
 #testimonials h1 {
    font: 18px/24px 'opensans-bold', sans-serif;   
    text-transform: uppercase;
    letter-spacing: 3px;
-   color: #fff;
+   color: rgb(255, 255, 255);
+}
+#testimonials h2 {
+   font: 12px/16px 'opensans-bold', sans-serif;   
+   text-transform: uppercase;
+   letter-spacing: 3px;
+   color: rgb(255, 255, 255);
 }
 #testimonials h1 span { display: none; }
 #testimonials .header-col { padding-top: 9px; }
@@ -684,6 +702,7 @@ call-to-action .button {
 
 /*	Blockquotes */
 #testimonials blockquote {
+   color: white;
    margin: 0 0px 30px 0px;
    padding-left: 0;
    position: relative;
@@ -798,10 +817,16 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #contact {
-   background: #191919;
-   padding-top: 96px;
-   padding-bottom: 102px;
-   color: #636363;
+   color: white;
+   background: #1F1F1F url(../images/background-sky.jpg) no-repeat center center;
+   background-size: cover !important;
+	-webkit-background-size: cover !important;
+   background-attachment: fixed;
+
+   position: relative;
+   min-height: 200px;
+   width: 100%;
+   overflow: hidden;
 }
 #contact .section-head { margin-bottom: 42px; }
 
