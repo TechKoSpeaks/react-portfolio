@@ -6,12 +6,10 @@ export default class Testimonials extends Component {
       <section id="testimonials">
         <div className="text-container">
           <div className="row">
-            <div className="olumns header-col">
-              <h1><span>Client Testimonials</span></h1>
-              <h2>This guy has a wonderful future in coding."</h2>
+            <div className="columns header-col">
+              <h1>This guy has a wonderful future in coding."</h1>
               <h2>- Someone Technical</h2>
-            </div>
-    
+            </div> 
           </div> {/* row ends */}
         </div>  {/* text-container ends */}
       </section>
