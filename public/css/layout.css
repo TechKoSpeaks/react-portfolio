@@ -189,12 +189,18 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background-image: url('spaceinvader.png');
-   background: #000c50ce;
-   padding-top: 96px;
-   padding-bottom: 66px;
-   overflow: hidden;
-}
+
+      color: white;
+      background: #1F1F1F url(../images/background-sky.jpg) no-repeat center center;
+      background-size: cover !important;
+      -webkit-background-size: cover !important;
+      background-attachment: fixed;
+   
+      position: relative;
+      min-height: 200px;
+      width: 100%;
+      overflow: hidden;
+   }
 
 #about a, #about a:visited  { color: #fff; }
 #about a:hover, #about a:focus { color: #11ABB0; }
@@ -206,12 +212,13 @@ ul#nav li.current a { color: #F06000; }
 }
 #about p {
    line-height: 30px;
-   color: #7A7A7A;
+   color: #000000;
 }
 #about .profile-pic {
+   background: url(../images/profile-photo2.jpg) no-repeat center center;
    position: relative;
-   width: 120px;
-   height: 120px;
+   width: 400px;
+   height: 600px;
    border-radius: 100%;
 }
 #about .contact-details { width: 41.66667%; }
@@ -401,9 +408,16 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #portfolio {
-   background: #ebeeee;
-   padding-top: 90px;
-   padding-bottom: 60px;
+   color: white;
+   background: #1F1F1F url(../images/testimonials-bg.jpg) no-repeat center center;
+   background-size: cover !important;
+	-webkit-background-size: cover !important;
+   background-attachment: fixed;
+
+   position: relative;
+   min-height: 200px;
+   width: 100%;
+   overflow: hidden;
 }
 #portfolio h1 {
    font: 15px/24px 'opensans-semibold', sans-serif;
@@ -629,6 +643,7 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #testimonials {
+   color: white;
    background: #1F1F1F url(../images/testimonials-bg.jpg) no-repeat center center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;

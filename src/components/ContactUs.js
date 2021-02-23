@@ -2,11 +2,11 @@ import React, { Component } from 'react';
 export default class ContactUs extends Component {
   render() {
     return (
-      <section id="contact">
+      <section id="testimonials">
         <div className="row section-head">
           <div className="ten columns">
             <p className="lead">
-              Please do not hesitate to contact me for any work, questions or suggestions below!
+              CONTACT INFORMATION:
               </p>
           </div>
         </div>

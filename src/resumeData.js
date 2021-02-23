@@ -3,7 +3,7 @@ let resumeData = {
     "name": "Travis Ko",
     "role": "Full Stack Programmer",
     "linkedinId":"travisko",
-    "roleDescription": "Aspiring Code Maestro",
+    "roleDescription": " Aspiring Code Maestro",
     "socialLinks":[
         {
           "name":"linkedin",
@@ -84,12 +84,13 @@ let resumeData = {
       {
         "name":"Weather Dashboard API",
         "description":"Weather Dashboard",
-        "imgurl":"images/portfolio-weather.jpg"
+        "imgurl":"../images/portfolio-weather.jpg"
       },
       {
         "name":"Random Password Generator",
         "description":"Random Password Generator",
-        "imgurl":"images/portfolio-password.jpg"
+        "imgurl":"../images/portfolio-password.jpg"
+        "href":
       },
       {
         "name":"Node Handlebars EDB",
@@ -104,7 +105,7 @@ let resumeData = {
     ],
     "testimonials":[
       {
-        "description":"This guy is a wonderful individual, so talented at coding with an outlandishly birght future.",
+        "description":"This guy is a wonderful individual, so talented at coding with an outlandishly bright future.",
         "name":"Some technical guy"
       },
       {
