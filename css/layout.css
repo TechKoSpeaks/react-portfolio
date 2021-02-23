@@ -234,6 +234,11 @@ ul#nav li.current a { color: #F06000; }
    width: 58.33333%;
    padding-top: 6px;
 }
+
+#about button {
+   background-color: rgba(146, 146, 18, 0.61);
+   color: black;
+}
 #about .main-col { padding-right: 5%; }
 #about .download .button {
    margin-top: 6px;
