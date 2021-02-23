@@ -38,6 +38,7 @@ header {
 	-webkit-background-size: cover !important;
    text-align: center;
    overflow: hidden;
+   color: rgba(102, 102, 224, 0.877)
 }
 
 /* vertically center banner section */
@@ -130,7 +131,8 @@ header .scrolldown a:hover { color: #11ABB0; }
 
 /* nav-wrap */
 #nav-wrap {
-   font: 12px 'opensans-bold', sans-serif;
+   font: 14px 'opensans-bold', sans-serif;
+   color: black;
    width: 100%;
    text-transform: uppercase;
    letter-spacing: 2.5px;
@@ -169,7 +171,7 @@ ul#nav li a {
    line-height: 32px;
 	text-decoration: none;
    text-align: left;
-   color: #fff;
+   color: rgba(156, 62, 243, 0.808);
 
 	-webkit-transition: color .2s ease-in-out;
 	-moz-transition: color .2s ease-in-out;
