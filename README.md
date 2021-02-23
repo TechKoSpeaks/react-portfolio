@@ -2,8 +2,11 @@
 
 This application is a Personal portfolio page [www.techkospeaks.github.io/react-portfolio/](www.techkospeaks.github.io/react-portfolio/) built in React.
 
-## Preview
-![Preview](https://image.ibb.co/e5uBf0/Capture.png)
+# Links: 
+
+Deployed Reach Portfolio Link: https://techkospeaks.github.io/react-portfolio/
+
+GitHub Repository: https://github.com/techkospeaks/react-portfolio
 
 ## Install and Run the app
 
