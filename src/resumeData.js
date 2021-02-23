@@ -16,7 +16,7 @@ let resumeData = {
           "className":"fa fa-github"
         }
       ],
-    "aboutme":"I am an aspiring full stack developer, with a background in React, Javascript, jQuery, Express and Node. I am always motivated to solve complex issues and take intrigue in a challenge! I graduated from Soka University of America with a degree in Social and Behavioral Science. My background is primarily in finance, with basic coding experience and I am currently enrolled in the UCSD Coding Bootcamp.",
+    "aboutme":"I am an aspiring full stack developer, with a background in React, Javascript, jQuery, Express, MySQL, MongoDB and Node. One of my strongest motivations in both my professional and personal environments is taking on and attempting to solve complex issues. There is always intrigue and learning in a challenge! I graduated from Soka University of America with a degree in Social and Behavioral Science. My background is primarily in finance, with basic coding experience and I am currently enrolled in the UCSD Coding Bootcamp to become a successful and competitive full stack programmer!",
     "email":"tkospeaks@gmail.com",
     "website":"https://techkospeaks.github.io/polished-portfolio",
     "education":[
