@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 export default class ContactUs extends Component {
   render() {
     return (
-      <section id="testimonials">
+      <section id="contact">
         <div className="row section-head">
           <div className="ten columns">
             <p className="lead">

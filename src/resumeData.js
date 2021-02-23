@@ -84,13 +84,14 @@ let resumeData = {
       {
         "name":"Weather Dashboard API",
         "description":"Weather Dashboard",
-        "imgurl":"../images/portfolio-weather.jpg"
+        "imgurl":"../images/portfolio-weather.jpg",
+        "href": "https://techkospeaks.github.io/Weather-Dashboard-API/"
       },
       {
         "name":"Random Password Generator",
         "description":"Random Password Generator",
-        "imgurl":"../images/portfolio-password.jpg"
-        "href":
+        "imgurl":"../images/portfolio-password.jpg",
+        "href": "https://techkospeaks.github.io/Portfolio-Password-Generator/"
       },
       {
         "name":"Node Handlebars EDB",
@@ -100,7 +101,8 @@ let resumeData = {
       {
         "name":"Employee Directory",
         "description":"Employee Directory",
-        "imgurl":"images/portfolio/phone.jpg"
+        "imgurl":"images/portfolio/phone.jpg",
+        "href": "https://techkospeaks.github.io/employee-directory/"
       }
     ],
     "testimonials":[

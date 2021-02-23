@@ -24,6 +24,11 @@
 
 body { background: #0f0f0f; }
 
+#button {
+   margin: 20px;
+   border: 20px;
+}
+
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
 /* ------------------------------------------------------------------ */
@@ -420,7 +425,7 @@ ul#nav li.current a { color: #F06000; }
    overflow: hidden;
 }
 #portfolio h1 {
-   font: 15px/24px 'opensans-semibold', sans-serif;
+   font: 30px/24px 'opensans-semibold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
    text-align: center;
