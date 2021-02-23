@@ -10,31 +10,31 @@ export default class Porfolio extends Component {
             <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
 
             <div class="flex-row p2 m2 rcorners2">Employee Directory Application:<p>
-                    <btn class="waves-effect waves-light button"
-                        href="https://techkospeaks.github.io/employee-directory/" target="_blank">Employee Directory</btn> | 
-                    <btn class="waves-effect waves-light button"
+                    <a class="waves-effect waves-light button"
+                        href="https://techkospeaks.github.io/employee-directory/" target="_blank">Employee Directory</a> | 
+                    <a class="waves-effect waves-light button"
                         href="https://github.com/TechKoSpeaks/employee-directory.git" target="_blank">ED
-                        Repository</btn>
+                        Repository</a>
                 </p>
             </div>
 
                 <div class="codingProjects flex-row p2 m2 rcorners2">Weather Dashboard API Website Application:<p>
-                    <btn class="waves-effect waves-light button"
+                    <a class="waves-effect waves-light button"
                         href="https://techkospeaks.github.io/Portfolio-Weather-Dashboard/" target="_blank">Weather
-                        Dashboard</btn> |
-                    <btn class="waves-effect waves-light button"
+                        Dashboard</a> |
+                    <a class="waves-effect waves-light button"
                         href="https://github.com/TechKoSpeaks/Portfolio-Weather-Dashboard.git" target="_blank">WD
-                        Repository</btn>
+                        Repository</a>
                 </p>
             </div>
 
             <div class="codingProjects flex-row p1 m2 rcorners2">Random Password Generator Application:<p>
-                <btn class="btn waves-effect waves-light button m2 p2"
+                <a class="btn waves-effect waves-light button m2 p2"
                     href="https://techkospeaks.github.io/Portfolio-Password-Generator/" target="_blank">Password
-                    Generator</btn> |  
-                <btn class="waves-effect waves-light button m1 p2"
+                    Generator</a> |  
+                <a class="waves-effect waves-light button m1 p2"
                     href="https://github.com/TechKoSpeaks/Portfolio-Password-Generator.git" target="_blank">PG
-                    Repository</btn>
+                    Repository</a>
                     </p>
 
               {/* {

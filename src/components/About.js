@@ -27,9 +27,9 @@ export default class About extends Component {
                            <h2>Name: Travis Ko</h2>
                            <h2>Phone: (206) 694-3202</h2>
                            <h2><a href="https://mail.google.com/mail/u/0/#inbox?compose=new">Email: tkospeaks@gmail.com</a></h2>
-                           <btn class="button" href="https://docs.google.com/document/d/1iMJFDzid7c-mCA4b2vQoJPSLNOII7lex9CM5JbsaqaU/edit?usp=sharing" target="_blank">Resume Link</btn>
-                           <btn class="button" href="https://www.linkedin.com/in/travisko/" target="_blank">LinkedIn Profile</btn>
-                           <btn class="button" href="https://github.com/TechKoSpeaks" target="_blank">Github Profile</btn>
+                           <a class="button" href="https://docs.google.com/document/d/1iMJFDzid7c-mCA4b2vQoJPSLNOII7lex9CM5JbsaqaU/edit?usp=sharing" target="_blank">Resume Link</a>
+                           <a class="button" href="https://www.linkedin.com/in/travisko/" target="_blank">LinkedIn Profile</a>
+                           <a class="button" href="https://github.com/TechKoSpeaks" target="_blank">Github Profile</a>
                         </p>
                      </div>
                   </div>
