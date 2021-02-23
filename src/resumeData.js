@@ -16,10 +16,17 @@ let resumeData = {
           "className":"fa fa-github"
         }
       ],
-    "aboutme":"I am an aspiring full stack developer, with a background in React, Javascript, jQuery, Express and Node. I am always motivated to solve complex issues and take intrigue in a challenge! My background is primarily in finance, with basic coding experience and I am currently enrolled in the UCSD Coding Bootcamp.",
+    "aboutme":"I am an aspiring full stack developer, with a background in React, Javascript, jQuery, Express and Node. I am always motivated to solve complex issues and take intrigue in a challenge! I graduated from Soka University of America with a degree in Social and Behavioral Science. My background is primarily in finance, with basic coding experience and I am currently enrolled in the UCSD Coding Bootcamp.",
     "email":"tkospeaks@gmail.com",
     "website":"https://techkospeaks.github.io/polished-portfolio",
     "education":[
+        {
+            "UniversityName":"UCSD Extension Coding Bootcamp",
+            "specialization":"Full Stack Programming Certificate",
+            "MonthOfPassing":"Mar",
+            "YearOfPassing":"2021",
+            "Achievements":"Enrolled in the UCSD Full Stack programming bootcamp, maintaining an 3.9 average and specializing in design, HTML, CSS, and Bootstrap."
+          },
       {
         "UniversityName":"Soka University of America",
         "specialization":"Social and Behavioral Sciences Degree",
@@ -49,9 +56,16 @@ let resumeData = {
         "MonthOfLeaving":"Aug",
         "YearOfLeaving":"2019",
         "Achievements":"Served as a financial advisor at First Tech Federal Credit Union, peforming financial related duties for customers and members."
+      },
+      {
+        "CompanyName":"San Diego County Credit Union",
+        "specialization":"Support Specialist",
+        "MonthOfLeaving":"May",
+        "YearOfLeaving":"2017",
+        "Achievements":"Upon moving to San Diego, began working as a Support Specialist for SDCCU, essentially being an on-call financial specialist between branches."
       }
     ],
-    "skillsDescription":"Your skills here",
+    "skillsDescription":"Coding Skills:",
     "skills":[
       {
         "skillname":"HTML5"
@@ -63,28 +77,28 @@ let resumeData = {
         "skillname":"CSS"
       },
       {
-        "skillname":"Reactjs"
+        "skillname":"React"
       }
     ],
     "portfolio":[
       {
-        "name":"project1",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "name":"Weather Dashboard API",
+        "description":"Weather Dashboard",
+        "imgurl":"images/portfolio-weather.jpg"
       },
       {
-        "name":"project2",
-        "description":"mobileapp",
+        "name":"Random Password Generator",
+        "description":"Random Password Generator",
         "imgurl":"images/portfolio/project.jpg"
       },
       {
-        "name":"project3",
-        "description":"mobileapp",  
+        "name":"Node Handlebars EDB",
+        "description":"Node Handlebars EDB",  
         "imgurl":"images/portfolio/project2.png"
       },
       {
-        "name":"project4",
-        "description":"mobileapp",
+        "name":"Employee Directory",
+        "description":"Employee Directory",
         "imgurl":"images/portfolio/phone.jpg"
       }
     ],
