@@ -11,10 +11,9 @@ export default class Porfolio extends Component {
 
             <div class="flex-row p2 m2 rcorners2">Employee Directory Application:<p>
                     <btn class="waves-effect waves-light button"
-                        href="https://techkospeaks.github.io/employee-directory/" target="_blank">Weather
-                        Dashboard</btn> | 
+                        href="https://techkospeaks.github.io/employee-directory/" target="_blank">Employee Directory</btn> | 
                     <btn class="waves-effect waves-light button"
-                        href="https://github.com/TechKoSpeaks/employee-directory.git" target="_blank">WD
+                        href="https://github.com/TechKoSpeaks/employee-directory.git" target="_blank">ED
                         Repository</btn>
                 </p>
             </div>
