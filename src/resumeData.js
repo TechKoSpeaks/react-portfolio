@@ -89,7 +89,7 @@ let resumeData = {
       {
         "name":"Random Password Generator",
         "description":"Random Password Generator",
-        "imgurl":"images/portfolio/project.jpg"
+        "imgurl":"images/portfolio-password.jpg"
       },
       {
         "name":"Node Handlebars EDB",
