@@ -2,8 +2,8 @@ let resumeData = {
     "imagebaseurl":"https://rbhatia46.github.io/",
     "name": "Travis Ko",
     "role": "Full Stack Programmer",
-    "linkedinId":"Your LinkedIn Id",
-    "roleDescription": "I am an aspiring full stack developer, with a background in React, Javascript, jQuery, Express and Node. I am always motivated to solve complex issues and take intrigue in a challenge! My background is primarily in finance, with basic coding experience and I am currently enrolled in the UCSD Coding Bootcamp.",
+    "linkedinId":"travisko",
+    "roleDescription": "Aspiring Code Maestro",
     "socialLinks":[
         {
           "name":"linkedin",
@@ -16,7 +16,7 @@ let resumeData = {
           "className":"fa fa-github"
         }
       ],
-    "aboutme":"I am currently a pre-final year student at The LNM Institute of Information Technology and pursuing my B.Tech from here. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
+    "aboutme":"I am an aspiring full stack developer, with a background in React, Javascript, jQuery, Express and Node. I am always motivated to solve complex issues and take intrigue in a challenge! My background is primarily in finance, with basic coding experience and I am currently enrolled in the UCSD Coding Bootcamp.",
     "email":"tkospeaks@gmail.com",
     "website":"https://techkospeaks.github.io/polished-portfolio",
     "education":[
