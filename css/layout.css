@@ -689,6 +689,7 @@ call-to-action .button {
 #testimonials h2 {
    font: 12px/16px 'opensans-bold', sans-serif;   
    text-transform: uppercase;
+   text-align: center;
    letter-spacing: 3px;
    color: rgb(255, 255, 255);
 }
