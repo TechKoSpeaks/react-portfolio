@@ -29,6 +29,10 @@ body { background: #0f0f0f; }
    border: 20px;
 }
 
+row {
+   text-align: center;
+}
+
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
 /* ------------------------------------------------------------------ */
@@ -208,7 +212,7 @@ ul#nav li.current a { color: #F06000; }
    }
 
 #about a, #about a:visited  { color: #fff; }
-#about a:hover, #about a:focus { color: #11ABB0; }
+#about a:hover, #about a:focus { color: #a04a11; }
 
 #about h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
@@ -221,13 +225,11 @@ ul#nav li.current a { color: #F06000; }
 }
 #about .profile-pic {
    background: url(../images/profile-photo2.jpg) no-repeat center center;
-   position: relative;
-   text-align: center;
+   
    width: 400px;
    height: 600px;
    border-radius: 100%;
-   max-width: 100%;
-   max-height: 100%;
+
 }
 #about .contact-details { width: 41.66667%; }
 #about .download {
@@ -349,7 +351,7 @@ ul#nav li.current a { color: #F06000; }
 
    margin: 0;
    padding-right: 24px;
-  	background: #1fb301;
+  	background: #573aff;
    display: inline-block;
   	height: 42px;
    line-height: 42px;
@@ -357,72 +359,89 @@ ul#nav li.current a { color: #F06000; }
 }
 
 .bootstrap {
-  	width: 60%;
-  	-moz-animation: bootstrap 2s ease;
-  	-webkit-animation: bootstrap 2s ease;
+  	width: 100%;
+  	-moz-animation: bootstrap 15s ease;
+     -webkit-animation: bootstrap 15s ease;
+     background: rgb(146, 146, 0);
 }
 .react {
-  	width: 55%;
-  	-moz-animation: react 2s ease;
-  	-webkit-animation: react 2s ease;
+  	width: 100%;
+  	-moz-animation: react 20s ease;
+     -webkit-animation: react 19s ease;
+     background: rgb(0, 146, 90);
 }
 .css {
-  	width: 90%;
-  	-moz-animation: css 2s ease;
-  	-webkit-animation: css 2s ease;
+  	width: 100%;
+  	-moz-animation: css 13s ease;
+     -webkit-animation: css 13s ease;
+     background: rgb(185, 68, 0);
 }
 .html5 {
-  	width: 80%;
-  	-moz-animation: html5 2s ease;
-  	-webkit-animation: html5 2s ease;
+  	width: 100%;
+  	-moz-animation: html5 13s ease;
+     -webkit-animation: html5 12s ease;
+     background: rgb(81, 255, 110);
 }
 .jquery {
-  	width: 50%;
-  	-moz-animation: jquery 2s ease;
-  	-webkit-animation: jquery 2s ease;
+  	width: 100%;
+  	-moz-animation: jquery 16s ease;
+  	-webkit-animation: jquery 16s ease;
+}
+.javascript {
+   width: 100%;
+   -moz-animation: react 18s ease;
+   -webkit-animation: react 18s ease;
 }
 
 @-moz-keyframes bootstrap {
   0%   { width: 0px;  }
-  100% { width: 80%;  }
+  100% { width: 100%;  }
 }
 @-moz-keyframes react {
   0%   { width: 0px;  }
-  100% { width: 65%;  }
+  100% { width: 100%;  }
 }
 @-moz-keyframes css {
   0%   { width: 0px;  }
-  100% { width: 90%;  }
+  100% { width: 100%;  }
 }
 @-moz-keyframes html5 {
   0%   { width: 0px;  }
-  100% { width: 80%;  }
+  90% { width: 100%;  }
 }
 @-moz-keyframes jquery {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 100%;  }
 }
+@-moz-keyframes javascript {
+   0%   { width: 0px;  }
+   100% { width: 100%;  }
+ }
 
 @-webkit-keyframes bootstrap {
   0%   { width: 0px;  }
-  100% { width: 80%;  }
+  100% { width: 100%;  }
 }
 @-webkit-keyframes react {
   0%   { width: 0px;  }
-  100% { width: 65%;  }
+  90% { width: 100%;  }
 }
 @-webkit-keyframes css {
   0%   { width: 0px;  }
-  100% { width: 90%;  }
+  100% { width: 100%;  }
 }
 @-webkit-keyframes html5 {
   0%   { width: 0px;  }
-  100% { width: 80%;  }
+  100% { width: 100%;  }
 }
 @-webkit-keyframes jquery {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 100%;  }
 }
+@-webkit-keyframes javascript {
+   0%   { width: 0px;  }
+   100% { width: 100%;  }
+ }
 
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
