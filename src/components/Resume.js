@@ -67,11 +67,17 @@ export default class Resume extends Component {
             <div className="three columns header-col">
               <h1><span>Skills</span></h1>
             </div>
+            <br/>
+            <br/>
 
+            <div><strong>Languages:</strong> HTML5, CSS, React, Javascript, Express, jQuery, AJAX/JSON, Sequelize</div>
+            <div><strong>Applications:</strong> OnBase, Salesforce, Workday, VS Code, Command Terminal, Symitar, Zoom, Heroku, Microsoft Excel, PowerPoint, Word, MS Teams</div>
+            <div><strong>Databases:</strong> MySQL, MongoDB, NoSQL, Multi APIs</div>
+            <div><strong>Professional Skills:</strong> Customer Service, Banking and Finance, Application Analysis, Programming</div>
             <div className="nine columns main-col">
-
+              <br />
               <p>
-                {resumeData.skillsDescription}
+                Animation of {resumeData.skillsDescription} Development Speed
               </p>
 
               <div className="bars">
@@ -94,9 +100,10 @@ export default class Resume extends Component {
           </div>
         </div>
 
+
         <p className="scrolldown">
-            <a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
-         </p>
+          <a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
+        </p>
 
       </section>
     );

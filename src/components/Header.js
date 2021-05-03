@@ -4,48 +4,48 @@ export default class Header extends Component {
     let resumeData = this.props.resumeData;
     return (
       <React.Fragment>
-      
-      <header id="about">
-         <nav id="nav-wrap">
-            <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-          <a className="mobile-btn" href="#nav-wrap" title="Hide navigation">Hide navigation</a>
-            <ul id="nav" className="nav">
-               <li><a className="smoothscroll" href="#about">Home</a></li>
-               <li><a className="smoothscroll" href="#about">About</a></li>
-             <li><a className="smoothscroll" href="#resume">Resume</a></li>
-               <li><a className="smoothscroll" href="#portfolio">Portfolio</a></li>
-               <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li>
-               <li><a className="smoothscroll" href="#contact">Contact</a></li>
-            </ul>
-         </nav>
 
-         <div className="row banner">
+        <header id="about">
+          <nav id="nav-wrap">
+            <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+            <a className="mobile-btn" href="#nav-wrap" title="Hide navigation">Hide navigation</a>
+            <ul id="nav" className="nav">
+              <li><a className="smoothscroll" href="#about">Home</a></li>
+              <li><a className="smoothscroll" href="#about">About</a></li>
+              <li><a className="smoothscroll" href="#resume">Resume</a></li>
+              <li><a className="smoothscroll" href="#portfolio">Portfolio</a></li>
+              <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li>
+              <li><a className="smoothscroll" href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+
+          <div className="row banner">
             <div className="banner-text">
               <h1> Welcome to My Portfolio.</h1>
-               <h1 className="responsive-headline">My Name is {resumeData.name}</h1>
-               <h3 style={{color:'#fff', fontFamily:'sans-serif '}}>I am a {resumeData.role}.{resumeData.roleDescription}
-               </h3>
-               <hr/>
-               <ul className="social">
-                  {
-                    resumeData.socialLinks && resumeData.socialLinks.map(item =>{
-                      return(
-                              <li key={item.name}>
-                                <a href={item.url} target="_blank"><i className={item.className}></i></a>
-                              </li>
-                            )
-                          }
+              <h1 className="responsive-headline">My Name is {resumeData.name}.</h1>
+              <h3 style={{ color: '#fff', fontFamily: 'sans-serif ' }}>I am a {resumeData.role}. And an{resumeData.roleDescription}.
+              </h3>
+              <hr />
+              <ul className="social">
+                {
+                  resumeData.socialLinks && resumeData.socialLinks.map(item => {
+                    return (
+                      <li key={item.name}>
+                        <a href={item.url} target="_blank"><i className={item.className}></i></a>
+                      </li>
                     )
                   }
-               </ul>
+                  )
+                }
+              </ul>
             </div>
-         </div>
+          </div>
 
-         <p className="scrolldown">
+          <p className="scrolldown">
             <a className="smoothscroll" href="#footer"><i className="icon-down-circle"></i></a>
-         </p>
+          </p>
 
-      </header>
+        </header>
       </React.Fragment>
     );
   }

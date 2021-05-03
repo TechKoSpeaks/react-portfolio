@@ -3,7 +3,7 @@ let resumeData = {
     "name": "Travis Ko",
     "role": "Full Stack Programmer",
     "linkedinId":"travisko",
-    "roleDescription": " Aspiring Code Maestro",
+    "roleDescription": " Aspiring Coding Maestro",
     "socialLinks":[
         {
           "name":"linkedin",
@@ -16,30 +16,30 @@ let resumeData = {
           "className":"fa fa-github"
         }
       ],
-    "aboutme":"I am an aspiring full stack developer, with a background in React, Javascript, jQuery, Express, MySQL, MongoDB and Node. One of my strongest motivations in both my professional and personal environments is taking on and attempting to solve complex issues. There is always intrigue and learning in a challenge! I graduated from Soka University of America with a degree in Social and Behavioral Science. My background is primarily in finance, with basic coding experience and I am currently enrolled in the UCSD Coding Bootcamp to become a successful and competitive full stack programmer!",
+    "aboutme":"I am an aspiring full stack developer and application analyst, with schooling in React, Javascript, jQuery, Express, MySQL, MongoDB and Node. One of my strongest motivations in both my professional and personal environments is attempting to solve drastically complex issues. There is always intrigue and definite learning in a challenge! I am a recent graduate at the UCSD Full-Stack Coding Bootcamp as of March 2021, prior to that I graduated in 2012 from Soka University of America with a degree in Social and Behavioral Science. My working background is primarily in finance, customer service and analysis, with my most recent profession holding the title of Application Support Analyst. Supplemented by my Web Development certificate, I can now accelerate an already successful career and have sharpened my competitive professional edge! Thank you for taking the time to review my portfolio, please do not hesitate to contact me for professional endeavors, potential opportunities or even just to chat!",
     "email":"tkospeaks@gmail.com",
     "website":"https://techkospeaks.github.io/polished-portfolio",
     "education":[
         {
             "UniversityName":"UCSD Extension Coding Bootcamp",
-            "specialization":"Full Stack Programming Certificate",
+            "specialization":"Full Stack Programming Certificate - 4.0 GPA",
             "MonthOfPassing":"Mar",
             "YearOfPassing":"2021",
-            "Achievements":"Enrolled in the UCSD Full Stack programming bootcamp, maintaining an 3.9 average and specializing in design, HTML, CSS, and Bootstrap."
+            "Achievements":"Enrolled in the UCSD Full Stack programming bootcamp, building over 20 apps and specializing in design, React, HTML, CSS, and Bootstrap."
           },
       {
         "UniversityName":"Soka University of America",
-        "specialization":"Social and Behavioral Sciences Degree",
+        "specialization":"Social and Behavioral Sciences Degree - 3.5 GPA",
         "MonthOfPassing":"Aug",
         "YearOfPassing":"2012",
-        "Achievements":"Captain of the Soccer team two years, 3.6 cumulative GPA, full athletic and merit based scholarship"
+        "Achievements":"Captain of the Soccer team two years, given full athletic and merit based scholarship."
       },
       {
         "UniversityName":"Garfield High School",
-        "specialization":"Art based",
+        "specialization":"Athletics and Art - 3.8 GPA",
         "MonthOfPassing":"Jan",
         "YearOfPassing":"2008",
-        "Achievements":"3.8 GPA, Graduated Cum Laude, varsity soccer team 3 years, captain senior year"
+        "Achievements":"Graduated Cum Laude, varsity soccer team 3 years, captain senior year."
       }
     ],
     "work":[
@@ -48,7 +48,7 @@ let resumeData = {
         "specialization":"Application Support Analyst",
         "MonthOfLeaving":"Nov",
         "YearOfLeaving":"2020",
-        "Achievements":"Worked for a year and a half in basic programming and analyst position for a financial company Symitar, working closely with clients to migrate financial service databases and systems"
+        "Achievements":"Worked for a year and a half in basic programming and analyst position for a financial company Symitar under the parent company Jack Henry and Associates. Worked closely with clients to migrate financial service databases and systems, mitigate and diagnose issues with software platforms."
       },
       {
         "CompanyName":"First Tech Federal Credit Union",
@@ -69,6 +69,9 @@ let resumeData = {
     "skills":[
       {
         "skillname":"HTML5"
+      },
+      {
+        "skillname":"Javascript"
       },
       {
         "skillname":"Bootstrap"
@@ -107,13 +110,10 @@ let resumeData = {
     ],
     "testimonials":[
       {
-        "description":"This guy is a wonderful individual, so talented at coding with an outlandishly bright future.",
-        "name":"Some technical guy"
+        "description":"Travis has a knack for learning and picking up things on the fly, he is intelligent and creative and these qualities translate nicely in his work.",
+        "name":"John Desrosiers (UCSD Instructor)"
       },
-      {
-        "description":"He knows things.",
-        "name":"Coding Friends"
-      }
+      
     ]
   }
   

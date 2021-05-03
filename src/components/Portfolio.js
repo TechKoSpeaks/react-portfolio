@@ -36,27 +36,6 @@ export default class Porfolio extends Component {
                     href="https://github.com/TechKoSpeaks/Portfolio-Password-Generator.git" target="_blank">PG
                     Repository</a>
                     </p>
-
-              {/* {
-                resumeData.portfolio && resumeData.portfolio.map((item) => {
-                  return (
-                    <div className="columns portfolio-item">
-                      <div className="item-wrap">
-                        <a href="#modal-01">
-                          <card href="https://techkospeaks.github.io/Portfolio-Password-Generator/" />
-                          <div className="card">
-                            <div className="portfolio-item-meta">
-                              <h5>{item.name}</h5>
-                              <p>{item.description}</p>
-                              <p>{item.href}</p>
-                            </div>
-                          </div>
-                        </a>
-                      </div>
-                    </div>
-                  )
-                })
-              } */}
             </div>
           </div>
         </div>
